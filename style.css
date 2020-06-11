@@ -148,16 +148,25 @@ li.nav a:hover, .dropdown:hover .dropbtn {
 
 .col_1 {
     float: left;
-    width: 400px;
-    margin-right: 50px;
+    width: 55%;
+    margin-right: 5%;
 }
 
 .col_2 {
     float:left;
-    width: calc(100%-400px);
+    width: 40%;
 }
 
-
+@media screen and (max-width: 1000px) {
+    .ItemInfo {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1001px) {
+    .ItemInfo {
+        font-size: 50px;
+    }
+}
 .footer_sec {
     position: static;
     left: 0;
